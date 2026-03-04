@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Destinos</title>
+    <style>
+        body { background-color: #f0f8ff; font-family: sans-serif; }
+        h1 { text-transform: uppercase; border-bottom: 2px dotted #7f077f; padding-bottom: 5px; }
+        .container {
+            border: 1px solid #918f8f;
+            border-radius: 8px;
+            padding: 20px;
+            width: fit-content;
+            background-color: white;
+        }
+        ul { list-style-type: none; padding-left: 0; }
+        .cidade { 
+            color: #7f077f; 
+            font-weight: bold; 
+            background-color: #fbfb2c78; /* Destaque amarelo */
+            display: inline-block;
+            margin-top: 10px;
+        }
+        ol.numerica { list-style-type: decimal; padding-left: 40px; }
+        ol.alfabetica { list-style-type: lower-alpha; padding-left: 40px; }
+    </style>
+</head>
+<body>
+    <h1>Melhores destinos turísticos</h1>
+    <div class="container">
+        <ul>
+            <li><span class="cidade">Foz do Iguaçu</span>
+                <ol class="numerica">
+                    <li>Cataratas do Iguaçu</li>
+                    <li>Itaipu</li>
+                    <li>Argentina e Paraguai</li>
+                </ol>
+            </li>
+            <li><span class="cidade">Salvador</span></li>
+            <li><span class="cidade">Rio de Janeiro</span>
+                <ol class="alfabetica">
+                    <li>Cristo Redentor</li>
+                    <li>Pão de Açúcar</li>
+                </ol>
+            </li>
+            <li><span class="cidade">Maranhão</span></li>
+        </ul>
+    </div>
+</body>
+</html>
