@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista países</title>
+    <style>
+        h2 {
+            background-color: #a2f2e1; /* Cor de fundo verde-água do título */
+            display: inline-block;
+            padding: 5px 10px;
+            width: 100%;
+        }
+        .lista-principal {
+            list-style-type: none; /* Remove os marcadores das cidades */
+            font-weight: bold;
+        }
+        .lista-numerica {
+            font-weight: normal;
+            list-style-type: decimal; /* 1, 2, 3 */
+        }
+        .lista-alfabetica {
+            font-weight: normal;
+            list-style-type: lower-alpha; /* a, b, c */
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Melhores destinos turísticos</h2>
+
+    <ul class="lista-principal">
+        <li>Foz do Iguaçu
+            <ol class="lista-numerica">
+                <li>Cataratas do Iguaçu</li>
+                <li>Itaipu</li>
+                <li>Argentina e Paraguai</li>
+            </ol>
+        </li>
+        
+        <li>Salvador</li>
+        
+        <li>Rio de Janeiro
+            <ol class="lista-alfabetica">
+                <li>Cristo Redentor</li>
+                <li>Pão de Açucar</li>
+            </ol>
+        </li>
+        
+        <li>Maranhão</li>
+    </ul>
+
+</body>
+</html>
